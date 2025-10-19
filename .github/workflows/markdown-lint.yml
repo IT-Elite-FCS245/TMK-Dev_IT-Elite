@@ -1,0 +1,50 @@
+# .github/workflows/markdown-lint.yml
+
+name: Markdown Lint and Format
+on:
+pull_request:
+branches:
+- main
+push:
+branches:
+- main
+jobs:
+lint:
+runs-on: ubuntu-latest
+steps:
+- name: Checkout code
+uses: actions/checkout@v4
+with:
+fetch-depth: 0
+  - name: Setup Node.js
+    uses: actions/setup-node@v4
+    with:
+      node-version: '18'
+
+  - name: Install markdownlint-cli
+    run: npm install -g markdownlint-cli
+
+  - name: Run markdownlint and fix
+    run: markdownlint --fix "**/*.md"
+
+  - name: Check for changes after linting
+    id: git_diff
+    run: |
+      git config user.name github-actions
+      git config user.email github-actions@github.com
+      git add .
+      git diff --staged --quiet || (
+        echo "Markdown formatting issues detected and fixed. Committing changes..."
+        git commit -m "fix: Apply markdown formatting fixes [skip ci]"
+        git push
+        echo "::set-output name=has_changes::true"
+      )
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  - name: Fail if changes were committed
+    if: steps.git_diff.outputs.has_changes == 'true'
+    run: |
+      echo "A new commit with formatting fixes was pushed. Please re-run the PR checks."
+      exit 1
+```
