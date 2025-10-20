@@ -30,7 +30,7 @@
             *   **Описание:** Вопросы от дизайнера, сфокусированные на UX/UI, стилистике и брендинге приложения.
         *   [Вопросы Архитектора (Вопросы от Архитектора.md)](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/questionnaire/individual_questions/Вопросы%20от%20Архитектора.md)
             *   **Описание:** Вопросы от архитектора, касающиеся нефункциональных требований: производительности, безопасности, масштабируемости и интеграции.
-        *   [Вопросы Аналитика (analyst_questions.md)]([content/questionnaire/individual_questions/analyst_questions.md](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/questionnaire/individual_questions/analyst_questions.md))
+        *   [Вопросы Аналитика (analyst_questions.md)](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/questionnaire/individual_questions/analyst_questions.md)
             *   **Описание:** Вопросы от аналитика, охватывающие функциональные требования, пользовательские роли и основной функционал приложения.
         *   [Вопросы Технического Писателя (techwriter_questions.md)](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/questionnaire/individual_questions/techwriter_questions.md)
             *   **Описание:** Вопросы от технического писателя, уточняющие детали сценариев использования, дорожных карт и уведомлений.
