@@ -19,16 +19,16 @@
 Эта папка содержит все основные рабочие артефакты, созданные в ходе выполнения проекта. Каждый файл имеет краткое описание своего назначения.
 
 *   **Анкета для Заказчика**
-    *   [АНКЕТА_№1_done_signed.docx](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/questionnaire/АНКЕТА_№1_done_signed.pdf)
+    *   [АНКЕТА_№1_done_signed.pdf](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/questionnaire/АНКЕТА_№1_done_signed.pdf)
         *   **Описание:** Финальная, подписанная версия анкеты для заказчика с извлеченными требованиями к мобильному приложению.
-    *   [Черновик Анкеты (questionnaire_draft.md)](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/questionnaire/Анкета_для_заказчика_№1.md)
+    *   [Черновик Анкеты (Анкета_для_заказчика_№1.md)](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/questionnaire/Анкета_для_заказчика_№1.md)
         *   **Описание:** Консолидированный черновик анкеты, собранный из индивидуальных вопросов членов команды перед финализацией.
     *   **Индивидуальные вопросы членов команды:**
         *   [Вопросы Руководителя Проекта (pm_questions.md)](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/questionnaire/individual_questions/Вопросы%20от%20Руководителя%20Проекта.md)
             *   **Описание:** Вопросы, сформулированные руководителем проекта, касающиеся общих целей, рисков и монетизации.
-        *   [Вопросы Дизайнера (designer_questions.md)]([content/questionnaire/individual_questions/designer_questions.md](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/questionnaire/individual_questions/Вопросы%20от%20Дизайнера.md))
+        *   [Вопросы Дизайнера (Вопросы от Дизайнера.md)](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/questionnaire/individual_questions/Вопросы%20от%20Дизайнера.md)
             *   **Описание:** Вопросы от дизайнера, сфокусированные на UX/UI, стилистике и брендинге приложения.
-        *   [Вопросы Архитектора (architect_questions.md)](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/questionnaire/individual_questions/Вопросы%20от%20Архитектора.md)
+        *   [Вопросы Архитектора (Вопросы от Архитектора.md)](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/questionnaire/individual_questions/Вопросы%20от%20Архитектора.md)
             *   **Описание:** Вопросы от архитектора, касающиеся нефункциональных требований: производительности, безопасности, масштабируемости и интеграции.
         *   [Вопросы Аналитика (analyst_questions.md)]([content/questionnaire/individual_questions/analyst_questions.md](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/questionnaire/individual_questions/analyst_questions.md))
             *   **Описание:** Вопросы от аналитика, охватывающие функциональные требования, пользовательские роли и основной функционал приложения.
@@ -36,20 +36,20 @@
             *   **Описание:** Вопросы от технического писателя, уточняющие детали сценариев использования, дорожных карт и уведомлений.
 
 *   **Интервью**
-    *   [Вопросы для Интервью (Вопросы.docx)]([content/interview/Вопросы.docx](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/interview/Вопросы%20для%20интервью.pdf))
+    *   [Вопросы для Интервью (Вопросы для интервью.pdf)](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/interview/Вопросы%20для%20интервью.pdf)
         *   **Описание:** Список вопросов, подготовленных для проведения интервью с заказчиком на основе заполненной анкеты.
-    *   [Протокол Интервью (Протоколинтервью2.pdf)](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/interview/Протокол%20интервью.pdf)
+    *   [Протокол Интервью (Протокол интервью.pdf)](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/interview/Протокол%20интервью.pdf)
         *   **Описание:** Документ, фиксирующий ход и результаты проведенного интервью с заказчиком.
 
 *   **План Коммуникаций**
-    *   [План Коммуникаций (Планкоммуникаций_done.docx)](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/communication_plan/План%20коммуникаций_done.pdf)
+    *   [План Коммуникаций (План коммуникаций_done.docx)](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/content/communication_plan/План%20коммуникаций_done.pdf)
         *   **Описание:** Документ, описывающий стратегию коммуникаций между заказчиком и командой проекта, включая контакты, темы и периодичность.
 
 ### Папка `docs/` (Проектная Документация)
 
 Эта папка содержит всю сопроводительную документацию проекта, которая также доступна через [GitHub Pages](https://it-elite-fcs245.github.io/TMK-Dev_IT-Elite/).
 
-*   [**Обзор Документации (README.md)**](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/docs/Документация%20Проекта%20_ТМК%20-%20Твой%20Мост%20к%20Карьере_.md)
+*   [**Обзор Документации (Документация Проекта_ТМК-Твой Мост к Карьере_.md)**](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/docs/Документация%20Проекта%20_ТМК%20-%20Твой%20Мост%20к%20Карьере_.md)
     *   **Описание:** Индексный файл для всей документации проекта, предоставляющий краткий обзор и ссылки на другие документы.
 *   [**Руководство по Внесению Вклада (contribution.md)**](https://github.com/IT-Elite-FCS245/TMK-Dev_IT-Elite/blob/main/docs/contribution.md)
     *   **Описание:** Подробное руководство, описывающее роли и обязанности каждого члена команды, а также правила и соглашения по работе с Git в данном репозитории. Включает стратегию ветвления, конвенции по именованию коммитов и процесс Pull Request.
